@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { ADD_CLIENT } from "../mutations/clientMutations";
 import { GET_CLIENTS } from "../queries/clientQueries";
+import Swal from 'sweetalert2';
 
 export const AddClientModal = () => {
   const [name, setName] = useState("");
@@ -25,10 +26,21 @@ export const AddClientModal = () => {
     event.preventDefault();
 
     if(name === '' || email === '' || phone === '') {
-        return alert('Please enter all the fields.')
+        return Swal.fire({
+            text: "Please fill all the form fields.",
+            icon: "warning",
+        })
     }
 
     addClient(name, email, phone);
+
+    Swal.fire({
+        title: "Success",
+        text: "Client added successfully.",
+        icon: "success",
+        showConfirmButton: false, 
+        timer: 1500        
+    })
 
     setName('');
     setEmail('');
