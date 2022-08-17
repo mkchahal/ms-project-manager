@@ -30,7 +30,7 @@ export const AddProjectModal = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    if (name === "" || description === "") {
+    if (name === "" || description === "" || clientId === "") {
       return Swal.fire({
         text: "Please fill all the form fields.",
         icon: "warning",
