@@ -12,6 +12,7 @@ export const Clients = () => {
 
     return (
         <>
+            <h1>Clients</h1>
             {!loading && !error && (
                 <table className="table table-hover mt-3">
                     <thead>
