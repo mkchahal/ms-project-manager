@@ -7,8 +7,10 @@ Ms. Project Manager is a simple project management app. It is very inituitive to
 ## Demo
 
 ### Landing Page
+<img width="776" alt="demompm" src="https://user-images.githubusercontent.com/99150991/185295637-4f595283-3376-4a00-8d62-9f48da2e1e0f.png">
 
 ### Walkthrough
+https://user-images.githubusercontent.com/99150991/185295772-c9fb6de2-6285-40d8-8147-39fbeca9b994.mp4
 
 ## Tech Stack
 
