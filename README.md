@@ -1,4 +1,5 @@
 # Ms. Project Manager
+<img width="496" alt="logo" src="https://user-images.githubusercontent.com/99150991/185288823-6d14a44e-d397-4a99-8bb2-282d0c6bdfc8.png">
 
 ## Description 
 Ms. Project Manager is a simple project management app. It is very inituitive to use with data stored in MongoDB and served through GraphQL. Now I understand the hype for GraphQL. The setup took me some time but using it on the front-end side was a piece of cake. Also, the provided tool to test endpoint - GraphiQL was extremely helpful. 
@@ -30,4 +31,4 @@ Ms. Project Manager is a simple project management app. It is very inituitive to
 
 3.Switch to client folder, install the modules and start the app: `cd client`, `npm i` & `npm start`. The app will start at the `http://localhost:3000`.
 
-4. Switch to server folder using `cd ../server` and run `npm run dev` to start the nodemon. The server will start running at `http://localhost:{PORT}`.
+4. Switch to root folder using `cd ../` and run `npm run dev` to start the nodemon. The server will start running at `http://localhost:{PORT}`.
