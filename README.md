@@ -27,8 +27,12 @@ Ms. Project Manager is a simple project management app. It is very inituitive to
 
 2. Run `npm i` in the root folder to install all the dependencies.
 
-2. Setup the environmnt variables in provided .env.sample file. 
+3. Setup the environmnt variables in provided .env.sample file. 
 
-3.Switch to client folder, install the modules and start the app: `cd client`, `npm i` & `npm start`. The app will start at the `http://localhost:3000`.
+4. Switch to client folder, install the modules and start the app: `cd client`, `npm i` & `npm start`. The app will start at the `http://localhost:3000`.
 
+<<<<<<< HEAD
 4. Switch to root folder using `cd ../` and run `npm run dev` to start the nodemon. The server will start running at `http://localhost:{PORT}`.
+=======
+5. Switch to server folder using `cd ../server` and run `npm run dev` to start the nodemon. The server will start running at `http://localhost:{PORT}`.
+>>>>>>> 8c346a3 (Revised the README file and updated favicon.)
